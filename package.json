@@ -1,0 +1,26 @@
+{
+  "name": "tdd-node",
+  "version": "1.0.0",
+  "description": "Test Driven Development Node practice",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "test": "jest --watchAll"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/anjrot01/tdd.git"
+  },
+  "author": "Antonio Rodríguez",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.10.3",
+    "node-mocks-http": "^1.9.0"
+  },
+  "devDependencies": {
+    "jest": "^26.4.2",
+    "nodemon": "^2.0.4",
+    "supertest": "^4.0.2"
+  }
+}
